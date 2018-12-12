@@ -1,7 +1,7 @@
 let fs = require('fs');
 
 
-// fs.writeFile('views/13.pug','Welcome to', (err, data) => {
+// fs.writeFile('13/13.pug','Welcome to', (err, data) => {
 //     console.log('Асинхронный метод записи файла');
 //     if(err) throw err;
 //
