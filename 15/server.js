@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
             let file = fs.readFile('./demo.txt', (err, data) => {
                 res.write(data);
                 res.end();
-                console.log('We Have new file');
+                console.log('We have new file');
             });
             break;
 
